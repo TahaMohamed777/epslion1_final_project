@@ -9,4 +9,5 @@ numpy
 imbalanced-learn
 xgboost
 catboost
+lightgbm
 scipy
