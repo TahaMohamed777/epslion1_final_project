@@ -1,5 +1,5 @@
-pandas
 streamlit
+pandas
 scikit-learn
 joblib
 plotly
@@ -8,4 +8,5 @@ matplotlib
 numpy
 imbalanced-learn
 xgboost
+catboost
 scipy
