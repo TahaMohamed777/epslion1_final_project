@@ -5,12 +5,7 @@ seaborn
 matplotlib
 scipy
 
-numpy==1.26.4
-pandas==2.2.2
-
-scikit-learn==1.4.2
-imbalanced-learn==0.12.2
-
+numpy
+pandas
+scikit-learn
 xgboost
-catboost
-lightgbm
