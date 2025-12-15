@@ -443,7 +443,7 @@ elif choice == "🧩 EDA":
 
     # ✅ مركز الصورة + تصغير الحجم
    st.markdown("""
-    <style>
+        <style>
         .center-img {
             display: flex;
             justify-content: center;
