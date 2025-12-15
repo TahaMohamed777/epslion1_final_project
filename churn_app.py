@@ -443,31 +443,9 @@ elif choice == "🧩 EDA":
 
     # ✅ مركز الصورة + تصغير الحجم
     st.markdown("""
-    <style>
-    /* كسر عرض الصفحة */
-    .block-container {
-        padding-left: 0rem;
-        padding-right: 0rem;
-        max-width: 100%;
-    }
-    
-    /* Container الصورة */
-    .center-img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 120px;
-    }
-    
-    /* الصورة نفسها */
-    .center-img img {
-        width: 90vw;
-        max-width: 1200px;
-    }
-    </style>
-    
-    <div class="center-img">
-        <img src="https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyd3Zqa3AydDdqZzJtZTE4bjdnNXMxczF3NW9jYXF2dWVmbnF3amRnYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT9C25UNTwfZuk85WP/200w.gif">
+    <div style='display:flex; justify-content:center; margin:20px 0;'>
+        <img src="https://ece.emory.edu/_includes/images/sections/programs/Data-Analytics-Intro.jpg" 
+             width="1000">
     </div>
     """, unsafe_allow_html=True)
 
