@@ -442,7 +442,7 @@ elif choice == "🧩 EDA":
     st.markdown("<div class='big-title'>Exploratory Data Analysis</div>", unsafe_allow_html=True)
 
     # ✅ مركز الصورة + تصغير الحجم
-   st.markdown("""
+    st.markdown("""
         <style>
         .center-img {
             display: flex;
