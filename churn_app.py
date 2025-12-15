@@ -443,9 +443,9 @@ elif choice == "🧩 EDA":
 
     # ✅ مركز الصورة + تصغير الحجم
     st.markdown("""
-    <div style='display:flex; justify-content:center; margin:20px 0;'>
+    <div style='display:flex; justify-content:center; margin:200px 0;'>
         <img src="https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyd3Zqa3AydDdqZzJtZTE4bjdnNXMxczF3NW9jYXF2dWVmbnF3amRnYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT9C25UNTwfZuk85WP/200w.gif" 
-             width="1500">
+             width="800">
     </div>
     """, unsafe_allow_html=True)
 
