@@ -452,8 +452,8 @@ elif choice == "🧩 EDA":
         }
         
         .center-img img {
-            width: 80vw;        /* ياخد 80% من عرض الشاشة */
-            max-width: 900px;  /* أقصى حجم */
+            width: 95vw;        /* ياخد 80% من عرض الشاشة */
+            max-width: 1200px;  /* أقصى حجم */
         }
         </style>
         
