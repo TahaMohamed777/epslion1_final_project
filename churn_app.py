@@ -443,24 +443,34 @@ elif choice == "🧩 EDA":
 
     # ✅ مركز الصورة + تصغير الحجم
     st.markdown("""
-        <style>
-        .center-img {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 150px 0;
-        }
-        
-        .center-img img {
-            width: 95vw;        /* ياخد 80% من عرض الشاشة */
-            max-width: 1200px;  /* أقصى حجم */
-        }
-        </style>
-        
-        <div class="center-img">
-            <img src="https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyd3Zqa3AydDdqZzJtZTE4bjdnNXMxczF3NW9jYXF2dWVmbnF3amRnYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT9C25UNTwfZuk85WP/200w.gif">
-        </div>
+    <style>
+    /* كسر عرض الصفحة */
+    .block-container {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        max-width: 100%;
+    }
+    
+    /* Container الصورة */
+    .center-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+    }
+    
+    /* الصورة نفسها */
+    .center-img img {
+        width: 90vw;
+        max-width: 1200px;
+    }
+    </style>
+    
+    <div class="center-img">
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyd3Zqa3AydDdqZzJtZTE4bjdnNXMxczF3NW9jYXF2dWVmbnF3amRnYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT9C25UNTwfZuk85WP/200w.gif">
+    </div>
     """, unsafe_allow_html=True)
+
     
 
     st.subheader("🔎 Summary Statistics")
