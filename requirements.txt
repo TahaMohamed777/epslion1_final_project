@@ -4,7 +4,7 @@ plotly
 seaborn
 matplotlib
 scipy
-
+imbalanced-learn
 numpy
 pandas
 scikit-learn
