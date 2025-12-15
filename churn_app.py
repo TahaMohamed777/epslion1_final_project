@@ -442,12 +442,26 @@ elif choice == "🧩 EDA":
     st.markdown("<div class='big-title'>Exploratory Data Analysis</div>", unsafe_allow_html=True)
 
     # ✅ مركز الصورة + تصغير الحجم
-    st.markdown("""
-    <div style='display:flex; justify-content:center; margin:200px 0;'>
-        <img src="https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyd3Zqa3AydDdqZzJtZTE4bjdnNXMxczF3NW9jYXF2dWVmbnF3amRnYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT9C25UNTwfZuk85WP/200w.gif" 
-             width="800">
+   st.markdown("""
+    <style>
+    .center-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 150px 0;
+    }
+    
+    .center-img img {
+        width: 80vw;        /* ياخد 80% من عرض الشاشة */
+        max-width: 900px;  /* أقصى حجم */
+    }
+    </style>
+    
+    <div class="center-img">
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyd3Zqa3AydDdqZzJtZTE4bjdnNXMxczF3NW9jYXF2dWVmbnF3amRnYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT9C25UNTwfZuk85WP/200w.gif">
     </div>
     """, unsafe_allow_html=True)
+    
 
     st.subheader("🔎 Summary Statistics")
     st.write(df.describe())
